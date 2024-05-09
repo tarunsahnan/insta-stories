@@ -25,8 +25,8 @@ const StoryExpanded: React.FC<StoryExpandedProps> = ({
 }) => {
   const sliderRef = useRef<SwiperRef>(null);
 
-  console.log("mounted", data, currStoryIndex);
   const handleClick = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
+    console.log("clickedddd", data, currStoryIndex);
     const rect = e.currentTarget.getBoundingClientRect();
     const clickX = e.clientX - rect.left;
     const divWidth = rect.width;
@@ -60,6 +60,7 @@ const StoryExpanded: React.FC<StoryExpandedProps> = ({
     <div
       className="bg-black absolute top-0 w-full h-full overflow-hidden"
       onClick={handleClick}
+      data-testid="story-expanded-main"
     >
       <Swiper
         ref={sliderRef}
@@ -125,6 +126,7 @@ const StoryExpanded: React.FC<StoryExpandedProps> = ({
       {/* swiper js prevents click listens in order to prevent accidental clicks, close event was not working perfectly when given to individual close button */}
       {/* So we created a transparent div that will handle all the close clicks */}
       <div
+        data-testid="close-button"
         className="absolute top-0 h-[64px] w-[64px] right-0 mt-3 z-10"
         onClick={closeClickHandler}
       ></div>

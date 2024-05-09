@@ -6,6 +6,7 @@ import Image from "next/image";
 import Story from "@/components/story/story";
 import getAllStories from "@/libs/getAllStories";
 import StoryExpanded from "@/components/story/storyExpanded";
+
 const Home = () => {
   const [stories, setStories] = useState<StoryInterface[]>([]);
   const [selectedStoryIndex, setSelectedStoryIndex] = useState<number>(-1);

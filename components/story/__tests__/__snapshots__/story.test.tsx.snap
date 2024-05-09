@@ -1,0 +1,35 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Story component > renders story with correct username and image 1`] = `
+<div>
+  <div
+    data-testid="story"
+  >
+    <div
+      class="bg-gradient-to-tr from-yellow-500 to-red-600 p-[1.5px]  rounded-full"
+    >
+      <div
+        class="bg-white rounded-full p-1"
+      >
+        <img
+          alt="John Doe"
+          class="w-14 h-14 rounded-full object-cover"
+          data-nimg="1"
+          decoding="async"
+          height="50"
+          loading="lazy"
+          src="/_next/image?url=https%3A%2F%2Fexample.com%2Fimage.jpg&w=128&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Fexample.com%2Fimage.jpg&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fexample.com%2Fimage.jpg&w=128&q=75 2x"
+          style="color: transparent;"
+          width="50"
+        />
+      </div>
+    </div>
+    <p
+      class="text-xs w-16 truncate text-center"
+    >
+      John Doe
+    </p>
+  </div>
+</div>
+`;

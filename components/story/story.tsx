@@ -9,7 +9,7 @@ interface StoryProps {
 
 const Story: React.FC<StoryProps> = ({ item, onClickHandler }) => {
   return (
-    <div onClick={() => onClickHandler()}>
+    <div onClick={() => onClickHandler()} data-testid="story">
       <div className="bg-gradient-to-tr from-yellow-500 to-red-600 p-[1.5px]  rounded-full">
         <div className="bg-white rounded-full p-1">
           <Image
