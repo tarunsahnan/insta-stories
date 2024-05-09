@@ -6,7 +6,7 @@ exports[`Page 1`] = `
     class="overflow-hidden"
   >
     <div
-      class="flex space-x-2 overflow-x-scroll max-w-xl bg-white border-gray-200 pt-2 px-4 scroll-smooth scrollbar-hide"
+      class="flex space-x-2 overflow-x-scroll bg-white border-gray-200 pt-2 px-4 scroll-smooth scrollbar-hide"
     />
   </div>
 </div>

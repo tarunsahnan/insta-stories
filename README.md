@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Deployment
 
 1. I have set up pre-commit and pre-push hooks to run test cases before allowing any operation.
-2. The project is deployed on [Netlify](https://master--insta-stories-test.netlify.app/), which automatically updates whenever a new commit is pushed to the master branch. Before building the project, Netlify runs a test command to ensure all unit test cases pass.
+2. The project is deployed on [Netlify](https://master--insta-stories-test.netlify.app/)(https://master--insta-stories-test.netlify.app/), which automatically updates whenever a new commit is pushed to the master branch. Before building the project, Netlify runs a test command to ensure all unit test cases pass.
 
 ## Getting Started
 
