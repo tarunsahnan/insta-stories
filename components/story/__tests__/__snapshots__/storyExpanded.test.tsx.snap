@@ -115,8 +115,8 @@ exports[`StoryExpanded component > renders without crashing 1`] = `
               decoding="async"
               height="140"
               loading="lazy"
-              src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1715178160659-7cc8ef44ade1%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHx0b3BpYy1mZWVkfDF8Qm4tRGpyY0Jyd298fGVufDB8fHx8fA%253D%253D&w=384&q=75"
-              srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1715178160659-7cc8ef44ade1%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHx0b3BpYy1mZWVkfDF8Qm4tRGpyY0Jyd298fGVufDB8fHx8fA%253D%253D&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1715178160659-7cc8ef44ade1%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHx0b3BpYy1mZWVkfDF8Qm4tRGpyY0Jyd298fGVufDB8fHx8fA%253D%253D&w=384&q=75 2x"
+              src="/_next/image?url=https%3A%2F%2Fplus.unsplash.com%2Fpremium_photo-1671581559799-5d370f768feb%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjV8fHN0b3J5fGVufDB8fDB8fHww&w=384&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fplus.unsplash.com%2Fpremium_photo-1671581559799-5d370f768feb%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjV8fHN0b3J5fGVufDB8fDB8fHww&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fplus.unsplash.com%2Fpremium_photo-1671581559799-5d370f768feb%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MjV8fHN0b3J5fGVufDB8fDB8fHww&w=384&q=75 2x"
               style="color: transparent;"
               width="140"
             />
