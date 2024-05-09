@@ -1,5 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Deployment
+
+1. I have set up pre-commit and pre-push hooks to run test cases before allowing any operation.
+2. The project is deployed on [Netlify](https://master--insta-stories-test.netlify.app/), which automatically updates whenever a new commit is pushed to the master branch. Before building the project, Netlify runs a test command to ensure all unit test cases pass.
+
 ## Getting Started
 
 Note: Please use yarn for dependency management as pre-commit and pre-push hooks have been set up accordingly.
@@ -35,8 +40,3 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 1. I have implemented nextjs Image tag for images as it optimizes images for performance by automatically providing features like lazy loading, responsive sizes, and efficient formats.
 2. I have written API routes in Next.js which provides streamlined development, deployment, and performance benefits.
-
-## Deployment
-
-1. I have set up pre-commit and pre-push hooks to run test cases before allowing any operation.
-2. The project is deployed on [Netlify](https://master--insta-stories-test.netlify.app/), which automatically updates whenever a new commit is pushed to the master branch. Before building the project, Netlify runs a test command to ensure all unit test cases pass.
