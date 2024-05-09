@@ -18,8 +18,7 @@ const Home = () => {
   }, []);
   return (
     <div className="overflow-hidden">
-      <h1 className="text-3xl font-semibold text-center">Stories</h1>
-      <div className="flex space-x-2 overflow-x-scroll max-w-xl bg-white border-gray-200 p-4 scroll-smooth scrollbar-hide">
+      <div className="flex space-x-2 overflow-x-scroll max-w-xl bg-white border-gray-200 pt-2 px-4 scroll-smooth scrollbar-hide">
         {stories.map((item, index) => (
           <Story
             item={item}
