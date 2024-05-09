@@ -33,7 +33,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Optimizations
 
-1. I have implemented nextjs <Image> tag for images as it optimizes images for performance by automatically providing features like lazy loading, responsive sizes, and efficient formats.
+1. I have implemented nextjs Image tag for images as it optimizes images for performance by automatically providing features like lazy loading, responsive sizes, and efficient formats.
 2. I have written API routes in Next.js which provides streamlined development, deployment, and performance benefits.
 
 ## Deployment
