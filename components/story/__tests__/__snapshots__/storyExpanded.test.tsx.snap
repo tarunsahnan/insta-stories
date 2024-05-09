@@ -18,7 +18,7 @@ exports[`StoryExpanded component > renders without crashing 1`] = `
         style="transition-duration: 0ms; transition-delay: 0ms; transform-origin: 50% 50% -NaNpx; transform: translate3d(0px,0,0px) rotateX(0deg) rotateY(0deg); --swiper-cube-translate-z: 0px;"
       >
         <div
-          class="swiper-slide"
+          class="swiper-slide bg-black"
         >
           <div
             class="flex justify-center items-center w-full h-full"
@@ -121,7 +121,7 @@ exports[`StoryExpanded component > renders without crashing 1`] = `
           </div>
         </div>
         <div
-          class="swiper-slide"
+          class="swiper-slide bg-black"
         >
           <div
             class="flex justify-center items-center w-full h-full"

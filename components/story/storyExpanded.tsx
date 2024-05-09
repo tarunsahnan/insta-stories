@@ -76,7 +76,7 @@ const StoryExpanded: React.FC<StoryExpandedProps> = ({
         className="h-full w-full "
       >
         {data.map((item, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={index} className="bg-black">
             <div className="flex justify-center items-center w-full h-full">
               <Image
                 loading="lazy"
