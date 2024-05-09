@@ -8,10 +8,6 @@ exports[`StoryExpanded component > renders without crashing 1`] = `
   >
     <div
       class="swiper swiper-cube swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress h-full w-full"
-      cube-effect-shadow="true"
-      cube-effect-shadow-offset="20"
-      cube-effect-shadow-scale="0.94"
-      cube-effect-slide-shadows="true"
     >
       <div
         class="swiper-wrapper"
@@ -36,22 +32,22 @@ exports[`StoryExpanded component > renders without crashing 1`] = `
               width="140"
             />
             <div
-              class="flex justify-between items-center text-white pl-3 pt-3 absolute top-0 z-10 w-full"
+              class="flex justify-between items-center  text-white pl-3 pt-3 absolute top-0 w-full"
             >
               <div
                 class="flex text-white items-center gap-3"
               >
                 <img
                   alt="userImage"
-                  class="w-10 h-10 rounded-full "
+                  class="w-10 h-10 rounded-full border border-white p-[1px]"
                   data-nimg="1"
                   decoding="async"
-                  height="40"
-                  loading="lazy"
-                  src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1517841905240-472988babdf9%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHVzZXIlMjBwcm9maWxlfGVufDB8fDB8fHww&w=96&q=75"
-                  srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1517841905240-472988babdf9%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHVzZXIlMjBwcm9maWxlfGVufDB8fDB8fHww&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1517841905240-472988babdf9%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHVzZXIlMjBwcm9maWxlfGVufDB8fDB8fHww&w=96&q=75 2x"
+                  height="15"
+                  loading="eager"
+                  src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1517841905240-472988babdf9%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHVzZXIlMjBwcm9maWxlfGVufDB8fDB8fHww&w=32&q=75"
+                  srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1517841905240-472988babdf9%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHVzZXIlMjBwcm9maWxlfGVufDB8fDB8fHww&w=16&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1517841905240-472988babdf9%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHVzZXIlMjBwcm9maWxlfGVufDB8fDB8fHww&w=32&q=75 2x"
                   style="color: transparent;"
-                  width="40"
+                  width="15"
                 />
                 <div>
                   <p>
@@ -87,29 +83,15 @@ exports[`StoryExpanded component > renders without crashing 1`] = `
                 </div>
               </div>
               <div
-                class="flex items-center z-10"
+                class="flex items-center"
               >
                 <svg
-                  aria-hidden="true"
                   fill="currentColor"
-                  height="24"
-                  stroke="currentColor"
-                  stroke-width="0"
-                  viewBox="0 0 20 20"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"
-                  />
-                </svg>
-                <svg
-                  fill="currentColor"
-                  height="64"
+                  height="56"
                   stroke="currentColor"
                   stroke-width="0"
                   viewBox="0 0 512 512"
-                  width="64"
+                  width="56"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
@@ -139,22 +121,22 @@ exports[`StoryExpanded component > renders without crashing 1`] = `
               width="140"
             />
             <div
-              class="flex justify-between items-center text-white pl-3 pt-3 absolute top-0 z-10 w-full"
+              class="flex justify-between items-center  text-white pl-3 pt-3 absolute top-0 w-full"
             >
               <div
                 class="flex text-white items-center gap-3"
               >
                 <img
                   alt="userImage"
-                  class="w-10 h-10 rounded-full "
+                  class="w-10 h-10 rounded-full border border-white p-[1px]"
                   data-nimg="1"
                   decoding="async"
-                  height="40"
-                  loading="lazy"
-                  src="/_next/image?url=https%3A%2F%2Fplus.unsplash.com%2Fpremium_photo-1671656349322-41de944d259b%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTd8fHVzZXIlMjBwcm9maWxlfGVufDB8fDB8fHww&w=96&q=75"
-                  srcset="/_next/image?url=https%3A%2F%2Fplus.unsplash.com%2Fpremium_photo-1671656349322-41de944d259b%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTd8fHVzZXIlMjBwcm9maWxlfGVufDB8fDB8fHww&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fplus.unsplash.com%2Fpremium_photo-1671656349322-41de944d259b%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTd8fHVzZXIlMjBwcm9maWxlfGVufDB8fDB8fHww&w=96&q=75 2x"
+                  height="15"
+                  loading="eager"
+                  src="/_next/image?url=https%3A%2F%2Fplus.unsplash.com%2Fpremium_photo-1670905033804-a08d6d73d595%3Fq%3D80%26w%3D387%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=32&q=75"
+                  srcset="/_next/image?url=https%3A%2F%2Fplus.unsplash.com%2Fpremium_photo-1670905033804-a08d6d73d595%3Fq%3D80%26w%3D387%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=16&q=75 1x, /_next/image?url=https%3A%2F%2Fplus.unsplash.com%2Fpremium_photo-1670905033804-a08d6d73d595%3Fq%3D80%26w%3D387%26auto%3Dformat%26fit%3Dcrop%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%253D%253D&w=32&q=75 2x"
                   style="color: transparent;"
-                  width="40"
+                  width="15"
                 />
                 <div>
                   <p>
@@ -190,29 +172,15 @@ exports[`StoryExpanded component > renders without crashing 1`] = `
                 </div>
               </div>
               <div
-                class="flex items-center z-10"
+                class="flex items-center"
               >
                 <svg
-                  aria-hidden="true"
                   fill="currentColor"
-                  height="24"
-                  stroke="currentColor"
-                  stroke-width="0"
-                  viewBox="0 0 20 20"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"
-                  />
-                </svg>
-                <svg
-                  fill="currentColor"
-                  height="64"
+                  height="56"
                   stroke="currentColor"
                   stroke-width="0"
                   viewBox="0 0 512 512"
-                  width="64"
+                  width="56"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
@@ -230,7 +198,7 @@ exports[`StoryExpanded component > renders without crashing 1`] = `
       </div>
     </div>
     <div
-      class="absolute top-0 h-[64px] w-[64px] right-0 mt-3 z-10"
+      class="absolute top-0 h-[56px] w-[56px] right-0 mt-3 z-10"
       data-testid="close-button"
     />
   </div>

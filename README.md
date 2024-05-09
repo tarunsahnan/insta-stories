@@ -2,35 +2,41 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Note: Please use yarn for dependency management as pre-commit and pre-push hooks have been set up accordingly.
+
+Following are the steps to run it locally:
+
+1. install the dependencies:
 
 ```bash
-npm run dev
-# or
+yarn install
+```
+
+2. run the development server:
+
+```bash
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Design Choices
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Implemented gradient border color for stories.
+2. Removed the scrollbar to align with Instagram's design.
+3. Clicking on a story opens a full-screen modal.
+4. Navigating between stories by clicking: left side for previous, right side for next .
+5. UI controls like dragging facilitate story navigation.
+6. Automatic transition to the next story after 5 seconds of inactivity.
+7. Implemented a close button to exit the story view.
+8. Clicking on any story in the homepage displays the expanded view with that story as the current image.
 
-## Learn More
+## Optimizations
 
-To learn more about Next.js, take a look at the following resources:
+1. I have implemented nextjs <Image> tag for images as it optimizes images for performance by automatically providing features like lazy loading, responsive sizes, and efficient formats.
+2. I have written API routes in Next.js which provides streamlined development, deployment, and performance benefits.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. I have set up pre-commit and pre-push hooks to run test cases before allowing any operation.
+2. The project is deployed on [Netlify](https://master--insta-stories-test.netlify.app/), which automatically updates whenever a new commit is pushed to the master branch. Before building the project, Netlify runs a test command to ensure all unit test cases pass.

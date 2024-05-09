@@ -1,7 +1,7 @@
 "use client";
-import { RefAttributes, useRef } from "react";
+import { RefAttributes, lazy, useRef } from "react";
 import Image from "next/image";
-import { Swiper, SwiperRef, SwiperSlide, useSwiper } from "swiper/react";
+import { Swiper, SwiperRef, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { StoryInterface } from "@/types/StoryInterface";
 import { EffectCube, Autoplay, Navigation } from "swiper/modules";
@@ -30,7 +30,6 @@ const StoryExpanded: React.FC<StoryExpandedProps> = ({
     const clickX = e.clientX - rect.left;
     const divWidth = rect.width;
 
-    // Check if the click is on the close icon
     const isCloseIconClicked =
       e.target instanceof HTMLElement && e.target.closest(".close-icon");
 
@@ -56,44 +55,35 @@ const StoryExpanded: React.FC<StoryExpandedProps> = ({
     >
       <Swiper
         ref={sliderRef}
-        autoplay={
-          {
-            // delay: 5000,
-            // stopOnLastSlide: true,
-            // pauseOnMouseEnter: true,
-          }
-        }
-        preventClicks={false}
-        preventClicksPropagation={false}
-        touchStartForcePreventDefault={false}
+        autoplay={{
+          delay: 5000,
+          stopOnLastSlide: true,
+          pauseOnMouseEnter: true,
+        }}
         initialSlide={currStoryIndex}
         modules={[EffectCube, Navigation, Autoplay]}
         effect="cube"
-        cube-effect-shadow="true"
-        cube-effect-slide-shadows="true"
-        cube-effect-shadow-offset="20"
-        cube-effect-shadow-scale="0.94"
-        className="h-full w-full "
+        className="h-full w-full"
       >
         {data.map((item, index) => (
           <SwiperSlide key={index} className="bg-black">
             <div className="flex justify-center items-center w-full h-full">
               <Image
-                loading="lazy"
                 src={item.userStory}
                 alt={item.userName}
                 className="w-full max-h-full object-cover"
                 width={140}
                 height={140}
               />
-              <div className="flex justify-between items-center text-white pl-3 pt-3 absolute top-0 z-10 w-full">
+              <div className="flex justify-between items-center  text-white pl-3 pt-3 absolute top-0 w-full">
                 <div className="flex text-white items-center gap-3">
                   <Image
+                    loading="eager"
                     src={item.userImage}
                     alt="userImage"
-                    className="w-10 h-10 rounded-full "
-                    width={40}
-                    height={40}
+                    className="w-10 h-10 rounded-full border border-white p-[1px]"
+                    width={15}
+                    height={15}
                   />
                   <div>
                     <p>
@@ -106,9 +96,8 @@ const StoryExpanded: React.FC<StoryExpandedProps> = ({
                     </div>
                   </div>
                 </div>
-                <div className="flex items-center z-10">
-                  <HiDotsHorizontal size={24} />
-                  <IoIosClose size={64} />
+                <div className="flex items-center">
+                  <IoIosClose size={56} />
                 </div>
               </div>
             </div>
@@ -119,7 +108,7 @@ const StoryExpanded: React.FC<StoryExpandedProps> = ({
       {/* So we created a transparent div that will handle all the close clicks */}
       <div
         data-testid="close-button"
-        className="absolute top-0 h-[64px] w-[64px] right-0 mt-3 z-10"
+        className="absolute top-0 h-[56px] w-[56px] right-0 mt-3 z-10"
         onClick={closeClickHandler}
       ></div>
     </div>
