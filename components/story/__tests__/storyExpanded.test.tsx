@@ -7,13 +7,14 @@ describe("StoryExpanded component", () => {
   const data = [stories[0], stories[1]];
 
   test("renders without crashing", () => {
-    render(
+    const { container } = render(
       <StoryExpanded
         data={data}
         currStoryIndex={0}
         setSelectedStoryIndex={() => {}}
       />
     );
+    expect(container).toMatchSnapshot();
   });
 
   test("calls setSelectedStoryIndex when close button is clicked", () => {
@@ -40,8 +41,6 @@ describe("StoryExpanded component", () => {
     );
     const component = screen.getAllByTestId("story-expanded-main")[2];
     if (!component) return;
-
-    console.log({ component });
 
     fireEvent.click(component, { clientX: 300 });
 

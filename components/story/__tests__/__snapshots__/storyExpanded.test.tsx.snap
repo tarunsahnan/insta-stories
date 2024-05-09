@@ -1,0 +1,238 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`StoryExpanded component > renders without crashing 1`] = `
+<div>
+  <div
+    class="bg-black absolute top-0 w-full h-full overflow-hidden"
+    data-testid="story-expanded-main"
+  >
+    <div
+      class="swiper swiper-cube swiper-3d swiper-initialized swiper-horizontal swiper-watch-progress h-full w-full"
+      cube-effect-shadow="true"
+      cube-effect-shadow-offset="20"
+      cube-effect-shadow-scale="0.94"
+      cube-effect-slide-shadows="true"
+    >
+      <div
+        class="swiper-wrapper"
+        style="transition-duration: 0ms; transition-delay: 0ms; transform-origin: 50% 50% -NaNpx; transform: translate3d(0px,0,0px) rotateX(0deg) rotateY(0deg); --swiper-cube-translate-z: 0px;"
+      >
+        <div
+          class="swiper-slide"
+        >
+          <div
+            class="flex justify-center items-center w-full h-full"
+          >
+            <img
+              alt="Tarun Sahnan"
+              class="w-full max-h-full object-cover"
+              data-nimg="1"
+              decoding="async"
+              height="140"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1715178160659-7cc8ef44ade1%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHx0b3BpYy1mZWVkfDF8Qm4tRGpyY0Jyd298fGVufDB8fHx8fA%253D%253D&w=384&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1715178160659-7cc8ef44ade1%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHx0b3BpYy1mZWVkfDF8Qm4tRGpyY0Jyd298fGVufDB8fHx8fA%253D%253D&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1715178160659-7cc8ef44ade1%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHx0b3BpYy1mZWVkfDF8Qm4tRGpyY0Jyd298fGVufDB8fHx8fA%253D%253D&w=384&q=75 2x"
+              style="color: transparent;"
+              width="140"
+            />
+            <div
+              class="flex justify-between items-center text-white pl-3 pt-3 absolute top-0 z-10 w-full"
+            >
+              <div
+                class="flex text-white items-center gap-3"
+              >
+                <img
+                  alt="userImage"
+                  class="w-10 h-10 rounded-full "
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1517841905240-472988babdf9%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHVzZXIlMjBwcm9maWxlfGVufDB8fDB8fHww&w=96&q=75"
+                  srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1517841905240-472988babdf9%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHVzZXIlMjBwcm9maWxlfGVufDB8fDB8fHww&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1517841905240-472988babdf9%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHVzZXIlMjBwcm9maWxlfGVufDB8fDB8fHww&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+                <div>
+                  <p>
+                    Tarun Sahnan
+                    <span
+                      class="text-gray-400 text-sm"
+                    >
+                       5h
+                    </span>
+                  </p>
+                  <div
+                    class="flex items-center gap-1"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M512 144v288c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V144c0-26.5 21.5-48 48-48h88l12.3-32.9c7-18.7 24.9-31.1 44.9-31.1h125.5c20 0 37.9 12.4 44.9 31.1L376 96h88c26.5 0 48 21.5 48 48zM376 288c0-66.2-53.8-120-120-120s-120 53.8-120 120 53.8 120 120 120 120-53.8 120-120zm-32 0c0 48.5-39.5 88-88 88s-88-39.5-88-88 39.5-88 88-88 88 39.5 88 88z"
+                      />
+                    </svg>
+                    <p
+                      class="text-gray-300 text-sm"
+                    >
+                      One Take 
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex items-center z-10"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="currentColor"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 20 20"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"
+                  />
+                </svg>
+                <svg
+                  fill="currentColor"
+                  height="64"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="64"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M278.6 256l68.2-68.2c6.2-6.2 6.2-16.4 0-22.6-6.2-6.2-16.4-6.2-22.6 0L256 233.4l-68.2-68.2c-6.2-6.2-16.4-6.2-22.6 0-3.1 3.1-4.7 7.2-4.7 11.3 0 4.1 1.6 8.2 4.7 11.3l68.2 68.2-68.2 68.2c-3.1 3.1-4.7 7.2-4.7 11.3 0 4.1 1.6 8.2 4.7 11.3 6.2 6.2 16.4 6.2 22.6 0l68.2-68.2 68.2 68.2c6.2 6.2 16.4 6.2 22.6 0 6.2-6.2 6.2-16.4 0-22.6L278.6 256z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-slide"
+        >
+          <div
+            class="flex justify-center items-center w-full h-full"
+          >
+            <img
+              alt="Alice Johnson"
+              class="w-full max-h-full object-cover"
+              data-nimg="1"
+              decoding="async"
+              height="140"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1715178160659-7cc8ef44ade1%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHx0b3BpYy1mZWVkfDF8Qm4tRGpyY0Jyd298fGVufDB8fHx8fA%253D%253D&w=384&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1715178160659-7cc8ef44ade1%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHx0b3BpYy1mZWVkfDF8Qm4tRGpyY0Jyd298fGVufDB8fHx8fA%253D%253D&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1715178160659-7cc8ef44ade1%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHx0b3BpYy1mZWVkfDF8Qm4tRGpyY0Jyd298fGVufDB8fHx8fA%253D%253D&w=384&q=75 2x"
+              style="color: transparent;"
+              width="140"
+            />
+            <div
+              class="flex justify-between items-center text-white pl-3 pt-3 absolute top-0 z-10 w-full"
+            >
+              <div
+                class="flex text-white items-center gap-3"
+              >
+                <img
+                  alt="userImage"
+                  class="w-10 h-10 rounded-full "
+                  data-nimg="1"
+                  decoding="async"
+                  height="40"
+                  loading="lazy"
+                  src="/_next/image?url=https%3A%2F%2Fplus.unsplash.com%2Fpremium_photo-1671656349322-41de944d259b%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTd8fHVzZXIlMjBwcm9maWxlfGVufDB8fDB8fHww&w=96&q=75"
+                  srcset="/_next/image?url=https%3A%2F%2Fplus.unsplash.com%2Fpremium_photo-1671656349322-41de944d259b%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTd8fHVzZXIlMjBwcm9maWxlfGVufDB8fDB8fHww&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Fplus.unsplash.com%2Fpremium_photo-1671656349322-41de944d259b%3Fw%3D1000%26auto%3Dformat%26fit%3Dcrop%26q%3D60%26ixlib%3Drb-4.0.3%26ixid%3DM3wxMjA3fDB8MHxzZWFyY2h8MTd8fHVzZXIlMjBwcm9maWxlfGVufDB8fDB8fHww&w=96&q=75 2x"
+                  style="color: transparent;"
+                  width="40"
+                />
+                <div>
+                  <p>
+                    Alice Johnson
+                    <span
+                      class="text-gray-400 text-sm"
+                    >
+                       5h
+                    </span>
+                  </p>
+                  <div
+                    class="flex items-center gap-1"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M512 144v288c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V144c0-26.5 21.5-48 48-48h88l12.3-32.9c7-18.7 24.9-31.1 44.9-31.1h125.5c20 0 37.9 12.4 44.9 31.1L376 96h88c26.5 0 48 21.5 48 48zM376 288c0-66.2-53.8-120-120-120s-120 53.8-120 120 53.8 120 120 120 120-53.8 120-120zm-32 0c0 48.5-39.5 88-88 88s-88-39.5-88-88 39.5-88 88-88 88 39.5 88 88z"
+                      />
+                    </svg>
+                    <p
+                      class="text-gray-300 text-sm"
+                    >
+                      One Take 
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex items-center z-10"
+              >
+                <svg
+                  aria-hidden="true"
+                  fill="currentColor"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 20 20"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 10a2 2 0 11-4 0 2 2 0 014 0zM12 10a2 2 0 11-4 0 2 2 0 014 0zM16 12a2 2 0 100-4 2 2 0 000 4z"
+                  />
+                </svg>
+                <svg
+                  fill="currentColor"
+                  height="64"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="64"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M278.6 256l68.2-68.2c6.2-6.2 6.2-16.4 0-22.6-6.2-6.2-16.4-6.2-22.6 0L256 233.4l-68.2-68.2c-6.2-6.2-16.4-6.2-22.6 0-3.1 3.1-4.7 7.2-4.7 11.3 0 4.1 1.6 8.2 4.7 11.3l68.2 68.2-68.2 68.2c-3.1 3.1-4.7 7.2-4.7 11.3 0 4.1 1.6 8.2 4.7 11.3 6.2 6.2 16.4 6.2 22.6 0l68.2-68.2 68.2 68.2c6.2 6.2 16.4 6.2 22.6 0 6.2-6.2 6.2-16.4 0-22.6L278.6 256z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-cube-shadow"
+          style="transform: translate3d(0px, NaNpx, NaNpx) rotateX(89.99deg) rotateZ(0deg) scale(0.94);"
+        />
+      </div>
+    </div>
+    <div
+      class="absolute top-0 h-[64px] w-[64px] right-0 mt-3 z-10"
+      data-testid="close-button"
+    />
+  </div>
+</div>
+`;
