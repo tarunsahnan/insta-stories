@@ -26,7 +26,6 @@ const StoryExpanded: React.FC<StoryExpandedProps> = ({
   const sliderRef = useRef<SwiperRef>(null);
 
   const handleClick = (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
-    console.log("clickedddd", data, currStoryIndex);
     const rect = e.currentTarget.getBoundingClientRect();
     const clickX = e.clientX - rect.left;
     const divWidth = rect.width;
@@ -41,19 +40,12 @@ const StoryExpanded: React.FC<StoryExpandedProps> = ({
     }
 
     if (!sliderRef.current) return;
-    console.log("Swiper", sliderRef.current.swiper);
-    if (clickX < divWidth * 0.3) {
-      console.log("prev");
-      sliderRef.current.swiper.slidePrev();
-    } else {
-      console.log("next");
 
-      sliderRef.current.swiper.slideNext();
-    }
+    if (clickX < divWidth * 0.3) sliderRef.current.swiper.slidePrev();
+    else sliderRef.current.swiper.slideNext();
   };
 
   const closeClickHandler = () => {
-    console.log("click listener");
     setSelectedStoryIndex(-1);
   };
   return (

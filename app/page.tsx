@@ -25,7 +25,6 @@ const Home = () => {
             item={item}
             key={index}
             onClickHandler={() => {
-              console.log("hi");
               setSelectedStoryIndex(index);
             }}
           />
